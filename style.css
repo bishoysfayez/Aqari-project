@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+.navbar,
+.active {
+    color: #70e000!important;
+    font-family: 'Almarai', sans-serif!important;
+}
+
+.nav-item {
+    margin: auto 1rem;
+    color: #fff!important;
+    font-weight: bold;
+    border-right-width: 0.5px!important;
+    font-family: 'Almarai', sans-serif!important;
+}
+
+.nav-dropdownbtn {
+    color: #70e000!important;
+    margin-right: 6rem !important;
+    font-family: 'Almarai', sans-serif!important;
+}
+
+.nav-dropdownbtn: hover {
+    background-color: #70e000!important;
+    color: #000;
+    margin-right: 6rem !important;
+    font-family: 'Almarai', sans-serif!important;
+}
+
+#outerlogo {
+    background-color: #70e000;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 84vh;
+    right: 24vw;
+    width: 150px;
+    height: 100px;
+    z-index: 100;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Almarai', sans-serif!important;
+}
+
+#outerlogo div {
+    margin: auto;
+    padding: 1rem;
+    font-family: 'Almarai', sans-serif!important;
+}
+
+#outerlogo div h3 {
+    color: #fff;
+    font-size: 1.25rem;
+    align-content: flex-end;
+    text-align: center;
+    font-family: 'Almarai', sans-serif!important;
+}
+
+#outerlogo div i {
+    color: #fff;
+    font-size: 2.5rem;
+    align-content: flex-end;
+    text-align: center;
+}
+
+#section-1,
+#section-2 {
+    margin: auto 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    color: #70e000;
+    font-size: 3rem;
+    align-content: flex-end;
+    font-family: 'Almarai', sans-serif!important;
+    padding: 2rem 2rem 2rem 0.5rem;
+    font-weight: 700;
+    width: 30%;
+}
+
+.logo span {
+    color: #fff;
+    background-color: #70e000;
+    border-radius: 10px;
+    padding: 1rem;
+    font-family: 'Lalezar', cursive;
+    font-weight: 100;
+}
+
+#section-1 .icons {}
+
+.icon-div {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 2rem 0.25rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.icon-div a {
+    text-decoration: none;
+    font-family: 'Lalezar', cursive;
+    font-weight: 100;
+    text-align: center;
+}
+
+.icon-div a i {
+    color: #2d3a3a;
+    font-size: 2.5rem;
+    align-content: flex-end;
+    padding-top: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.icon-div a h3 {
+    color: #2d3a3a;
+    font-size: 1rem;
+    font-family: 'Almarai', sans-serif!important;
+}
+
+.icons *:hover {
+    background-color: #70e000;
+    color: white;
+}
+
+.carouselExampleCaptions {
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 0;
+}
+
+.carouselExampleCaptions * {
+    font-size: 5rem;
+}
+
+#section-2 {
+    text-align: right;
+    direction: rtl;
+}
+
+#title-header {
+    align-items: center;
+    width: 100vw;
+}
+
+.display-4 {
+    display: block;
+    border: 3px solid #14213d;
+    border-radius: 10px;
+    font-family: 'Almarai', sans-serif!important;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    width: 30vw;
+    height: 10vh;
+    margin: auto;
+}
+
+.card-body>div {
+    background-color: hsla(90, 100%, 44%, 0.8);
+    border: 3px solid white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 70%;
+    height: 2.5rem;
+    position: relative;
+    bottom: 135px;
+    right: 50px;
+}
+
+.card-body>h5 {
+    font-family: 'Almarai', sans-serif!important;
+    align-self: center;
+    align-content: center;
+    margin: 10px auto;
+    font-size: 1.5rem;
+}
+
+.card-body>p {
+    font-family: 'Almarai', sans-serif!important;
+    color: #70e000;
+    text-decoration: underline;
+    margin: 10px auto;
+}
+
+.card-body>input {
+    float: left;
+    margin: auto;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.card-body>label {
+    float: left;
+    margin: auto 10px;
+}
+
+.card-body>span {
+    background-color: #c1fba4!important;
+}
+
+.card {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.ticket {
+    box-sizing: content-box;
+    background-color: #70e000;
+    font-weight: bold;
+    font-family: 'Almarai', sans-serif!important;
+    align-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #fff;
+    width: 50%;
+    height: 1.3rem;
+    position: relative;
+    bottom: 220px;
+    right: -60px;
+    transform: rotate(45deg);
+}
+
+#section-3 {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    text-align: right;
+    width: 100vw;
+    background-color: #def4c6;
+    padding: 5vh;
+}
+
+#section-3 .col-sm-6 .card {
+    margin: auto;
+    width: 44vw;
+}
+
+.green-card {
+    background-color: #70e000;
+    color: black;
+}
+
+#section-3 .card-body .star-div {
+    color: black!important;
+    background-color: transparent!important;
+    display: block!important;
+    border: none!important;
+    position: relative;
+    bottom: auto;
+}
+
+#section-3 .card-body p {
+    color: black;
+    text-decoration: none;
+}
+
+#section-3 .card-body a {
+    background-color: #14213d;
+    position: relative;
+    right: -400px;
+}
+
+#paragraph-link {
+    display: inline;
+    float: left;
+    font-size: 1rem;
+    color: #70e000!important;
+    text-align: center;
+    align-content: center;
+}
+
+#h5-link {
+    display: inline;
+}
+
+#cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#cards-container>div {
+    width: 25%;
+    border: none!important;
+    margin-bottom: 10px;
+}
+
+#cards-container h5 {
+    font-size: 1rem;
+    text-align: center!important;
+}
+
+#cards-container p {
+    font-size: 0.8rem;
+    color: #70e000!important;
+    text-align: center!important;
+}
+
+#cards-container img {
+    width: auto;
+    height: 130px;
+    border-radius: 100px;
+    margin: 5px 10px 0 10px;
+}
+
+.news {
+    width: 120px;
+    background-color: #14213d!important;
+    margin-top: 0!important;
+    padding-top: 10px!important;
+}
+
+.news-scroll a {
+    text-decoration: none;
+    color: #14213d;
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.news-bar>.row {
+    width: 100%!important;
+    margin: 0!important;
+    padding: 1vw;
+}
+
+#section-4 {
+    align-items: center;
+    position: absolute;
+    bottom: -14vh;
+    right: -100vw;
+    transition: right 2.5s ease-in;
+    z-index: 500;
+}
+
+#section-4>div {
+    border-radius: 20px;
+    width: 25vw;
+    height: auto;
+    padding: 1rem;
+    background-color: hsla(0, 100%, 2%, 0.7);
+}
+
+#section-4>div>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#section-4>div>div>div {
+    border: 3px solid white!important;
+    border-radius: 3rem;
+    font-size: 3rem;
+    margin: 1rem 1rem;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    justify-content: center;
+    color: white!important;
+}
+
+#section-4>div>div>div:hover {
+    color: #70e000!important;
+    border: 3px solid #70e000!important;
+}
+
+#section-4>div>div>div>i {
+    margin: auto;
+}
+
+#section-4>div>div>div>select,
+#section-4 .btn {
+    margin: 1rem!important;
+}
+
+#section-4 option {
+    font-family: 'Almarai', sans-serif!important;
+    font-size: 1rem;
+}
+
+#section-4 .btn {
+    background-color: #70e000!important;
+    font-family: 'Almarai', sans-serif!important;
+    width: 8rem;
+    margin-left: 100px!important;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: none!important;
+}
+
+#section-6 {
+    margin: auto;
+    background-color: #f7fff7;
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+    font-family: 'Almarai', sans-serif!important;
+    margin: auto;
+}
+
+#section-10 {
+    justify-content: center;
+    align-items: center;
+}
+
+.list-unstyled li i {
+    text-decoration: none;
+    margin: 0.3rem auto;
+    font-size: 2rem;
+}
+
+.list-unstyled li i:hover {
+    color: #80ffdb;
+    text-shadow: 2px 1px #80ffdb;
+}
