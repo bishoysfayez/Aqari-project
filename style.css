@@ -44,6 +44,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Almarai', sans-serif!important;
+    visibility: hidden;
 }
 
 #outerlogo div {
@@ -148,7 +149,9 @@
 
 #title-header {
     align-items: center;
-    width: 100vw;
+    width: 60vw;
+    height: auto;
+    margin: auto;
 }
 
 .display-4 {
@@ -156,11 +159,11 @@
     border: 3px solid #14213d;
     border-radius: 10px;
     font-family: 'Almarai', sans-serif!important;
-    font-size: 3rem;
+    font-size: 3em;
     font-weight: 800;
     text-align: center;
     width: 30vw;
-    height: 10vh;
+    height: auto;
     margin: auto;
 }
 
@@ -230,9 +233,31 @@
     width: 50%;
     height: 1.3rem;
     position: relative;
-    bottom: 220px;
-    right: -60px;
+    bottom: 185px;
+    right: -56px;
     transform: rotate(45deg);
+    visibility: hidden;
+}
+
+@media (min-width: 576px) {
+    .ticket,
+    #outerlogo {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 768px) {
+    .ticket,
+    #outerlogo {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 992px) {
+    .ticket,
+    #outerlogo {
+        visibility: visible;
+    }
 }
 
 #section-3 {
@@ -439,3 +464,5 @@
     color: #80ffdb;
     text-shadow: 2px 1px #80ffdb;
 }
+
+.logo-title {}
